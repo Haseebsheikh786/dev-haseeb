@@ -180,7 +180,7 @@ export function ProjectDetail({ project, onClose }) {
                         onClick={handleDiscussClick}
                         asChild
                     >
-                        <Link href="#contact">
+                        <Link href="#contact" onClick={handleDiscussClick}>
                             Discuss This Project
                             <ArrowRight className="ml-2 h-4 w-4" />
                         </Link>

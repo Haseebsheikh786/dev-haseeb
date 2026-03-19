@@ -16,17 +16,8 @@ import { ProjectDetail } from "./project-detail";
 import { useState } from "react";
 
 export default function Portfolio() {
-  const [openProjectId, setOpenProjectId] = useState(null);
+  const [openDialogId, setOpenDialogId] = useState(null);
 
-  // Open or toggle dialog
-  const toggleDialog = (projectId) => {
-    setOpenProjectId(prev => (prev === projectId ? null : projectId));
-  };
-
-  // Close dialog
-  const closeDialog = () => {
-    setOpenProjectId(null);
-  };
 
   return (
     <motion.section
@@ -144,30 +135,19 @@ export default function Portfolio() {
 
                     {/* Actions */}
                     <div className="flex items-center gap-2 mt-4 pt-4 border-t border-border/50">
-                      <Dialog
-                        open={openProjectId === project.id}
-                        onOpenChange={(open) => {
-                          setOpenProjectId(open ? project.id : null);
-                        }}
-                      >
+                      <Dialog open={openDialogId === i} onOpenChange={(open) => setOpenDialogId(open ? i : null)}>
                         <DialogTrigger asChild>
-                          <motion.div
-                            whileHover={{ scale: 1.05 }}
-                            whileTap={{ scale: 0.95 }}
+                          <Button
+                            variant=""
+                            size="sm"
                             className="flex-1"
-                            onClick={() => toggleDialog(project.id)}
+                            onClick={() => setOpenDialogId(i)}
                           >
-                            <Button variant="outline" size="sm" className="w-full">
-                              View Details
-                            </Button>
-                          </motion.div>
+                            View Details
+                          </Button>
                         </DialogTrigger>
-
-                        <DialogContent className="max-w-4xl max-h-[85vh] overflow-y-auto p-0">
-                          <ProjectDetail
-                            project={project}
-                            onClose={closeDialog}
-                          />
+                        <DialogContent className="sm:w-[60vw] !max-w-none max-h-[85vh] overflow-y-auto p-0">
+                          <ProjectDetail project={project} onClose={() => setOpenDialogId(null)} />
                         </DialogContent>
                       </Dialog>
 
