@@ -8,19 +8,19 @@ import {
     AccordionTrigger,
 } from "@/components/ui/accordion";
 import { Card } from "./ui/card";
-import { motion,  } from "framer-motion";
+import { motion, } from "framer-motion";
 import { fadeUp, scaleUp } from '@/lib/animations'
 
 const faqs = [
     {
         question: "Which package is right for my startup?",
         answer:
-            "If you have an idea and need to validate it, start with our MVP Launch Package. If you already have users and need to scale, choose the Scaling Retainer. For specific features, go with the Fixed Feature Package. Not sure? Book a free consultation and we'll guide you.",
+            "If you have an idea and need to validate it, start with my MVP Launch Package. If you already have users and need to scale, choose the Scaling Retainer. For specific features, go with the Fixed Feature Package. Not sure? Book a free consultation and I'll guide you.",
     },
     {
         question: "How fast can you build an MVP?",
         answer:
-            "Our MVP Launch Package delivers a working product in 4-6 weeks. We focus on core features that validate your idea, so you can start getting user feedback quickly.",
+            "My MVP Launch Package delivers a working product in 4-6 weeks. I focus on core features that validate your idea, so you can start getting user feedback quickly.",
     },
     {
         question: "What's included in the MVP Launch Package?",
@@ -30,22 +30,22 @@ const faqs = [
     {
         question: "How does the Scaling Retainer work?",
         answer:
-            "It's a monthly partnership. We handle performance optimization, new features, database scaling, and maintenance. You get priority support and predictable monthly pricing.",
+            "It's a monthly partnership. I handle performance optimization, new features, database scaling, and maintenance. You get priority support and predictable monthly pricing.",
     },
     {
         question: "Can I hire you for just one feature?",
         answer:
-            "Yes! Our Fixed Feature Package is perfect for specific needs like payment integration, custom admin panels, or API development. Typical delivery is 1-3 weeks.",
+            "Yes! My Fixed Feature Package is perfect for specific needs like payment integration, custom admin panels, or API development. Typical delivery is 1-3 weeks.",
     },
     {
         question: "What technologies do you use?",
         answer:
-            "We specialize in React, Next.js, Node.js, and PostgreSQL. This stack gives you scalability, performance, and a large talent pool for future hiring.",
+            "I specialize in React, Next.js, Node.js, and PostgreSQL. This stack gives you scalability, performance, and a large talent pool for future hiring.",
     },
     {
         question: "Do you help with deployment?",
         answer:
-            "Yes, deployment is included in all packages. We handle production setup on Vercel/Render, configure CI/CD, and ensure your app is live and working.",
+            "Yes, deployment is included in all packages. I handle production setup on Vercel/Render, configure CI/CD, and ensure your app is live and working.",
     },
     {
         question: "What if I need ongoing support after launch?",
@@ -55,12 +55,12 @@ const faqs = [
     {
         question: "How do you ensure code quality?",
         answer:
-            "We follow clean architecture principles, write tests, conduct code reviews, and maintain documentation. Quality is built into every package.",
+            "I follow clean architecture principles, write tests, conduct code reviews, and maintain documentation. Quality is built into every package.",
     },
     {
         question: "Can you work with my existing codebase?",
         answer:
-            "Absolutely. We can integrate with your existing codebase, refactor as needed, and help you scale your current application.",
+            "Absolutely. I can integrate with your existing codebase, refactor as needed, and help you scale your current application.",
     }
 ];
 
@@ -103,7 +103,7 @@ export default function Pricing() {
                             variants={fadeUp}
                             className="text-muted-foreground max-w-2xl mx-auto"
                         >
-                            Everything you need to know about our process
+                            Everything you need to know about working with me
                         </motion.p>
                     </motion.div>
 
