@@ -3,17 +3,13 @@
 import { useState } from "react";
 import { Card } from "@/components/ui/card";
 import {
-  Sparkles,
-  TrendingUp,
   Target,
   ChevronDown,
   Code2,
   Rocket,
-  ShieldCheck,
   Star,
   Users,
   Layers,
-  GitBranch,
 } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
 import { fadeUp, scaleUp, slideInLeft, slideInRight } from '@/lib/animations'
@@ -35,7 +31,7 @@ const sections = [
     title: "The Vision",
     icon: Target,
     content:
-      "I envision building a product-focused development studio that partners long-term with ambitious founders and helps them scale confidently.",
+      "I'm building my development practice to partner long-term with ambitious founders and help them scale confidently.",
   },
 ];
 
@@ -75,14 +71,14 @@ export default function Founder() {
             variants={fadeUp}
             className="text-4xl md:text-5xl font-bold mb-6"
           >
-            <span className="text-primary">Founder & Vision </span>
+            <span className="text-primary">My Story & Vision </span>
           </motion.h2>
 
           <motion.p
             variants={fadeUp}
             className="text-muted-foreground max-w-2xl mx-auto"
           >
-            The story behind the mission
+            The journey behind the work
           </motion.p>
         </motion.div>
 
@@ -103,7 +99,7 @@ export default function Founder() {
                 whileHover={{ scale: 1.05 }}
                 transition={{ duration: 0.5 }}
                 src="/Haseeb.jpg"
-                alt="Founder"
+                alt="Haseeb Farrukh"
                 className="w-full h-full object-cover object-top"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent" />
@@ -118,7 +114,7 @@ export default function Founder() {
                   Haseeb Farrukh
                 </h3>
                 <p className="text-primary font-medium">
-                  Founder & SaaS Architect
+                  Full-Stack Developer
                 </p>
               </motion.div>
             </motion.div>

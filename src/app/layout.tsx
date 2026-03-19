@@ -4,7 +4,7 @@ import { ThemeProvider } from "@/components/theme-provider";
 import Navbar from "@/components/navbar";
 import Footer from "@/components/footer";
 import { siteConfig } from "@/lib/seo-config";
-
+import AppLoader from "@/components/Loader";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -32,6 +32,7 @@ export default function RootLayout({
           enableSystem
           disableTransitionOnChange
         >
+          <AppLoader />
           <Navbar />
           <main className="relative">{children}</main>
           <Footer />
