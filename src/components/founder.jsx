@@ -82,7 +82,7 @@ export default function Founder() {
             variants={fadeUp}
             className="text-muted-foreground max-w-2xl mx-auto"
           >
-            Everything you need to know about our process
+            The story behind the mission
           </motion.p>
         </motion.div>
 

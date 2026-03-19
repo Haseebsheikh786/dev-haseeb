@@ -57,14 +57,14 @@ export default function Testimonials() {
             variants={fadeUp}
             className="text-3xl md:text-4xl font-bold mb-4"
           >
-            What Our <span className="text-primary"> Clients Say</span>
+            What  <span className="text-primary"> Clients Say</span>
           </motion.h2>
 
           <motion.p
             variants={fadeUp}
             className="text-muted-foreground max-w-2xl mx-auto"
           >
-            Hear from founders who grew their startups with our development and
+            Hear from founders who grew their startups with my development and
             technical expertise.
           </motion.p>
         </motion.div>
