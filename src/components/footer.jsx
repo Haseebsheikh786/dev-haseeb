@@ -46,10 +46,7 @@ export default function Footer() {
             variants={scaleUp}
             className="col-span-1 md:col-span-4"
           >
-            <motion.div
-            // whileHover={{ scale: 1.05 }}
-            // whileTap={{ scale: 0.95 }}
-            >
+            <motion.div>
               {/* Logo - Left side with icon */}
               <Link href="#home" className="inline-flex items-center space-x-2 mb-4">
                 <span className="text-xl font-bold text-primary">
@@ -62,9 +59,7 @@ export default function Footer() {
               variants={fadeUp}
               className="text-sm text-muted-foreground leading-relaxed max-w-96"
             >
-              Seebify is a SaaS & MVP development studio helping startups
-              turn ideas into scalable, production-ready web applications
-              with clean architecture and modern technologies.
+              I'm a full-stack developer helping startups build scalable SaaS products and MVPs with clean, maintainable code and modern technologies like React, Next.js, and Node.js.
             </motion.p>
           </motion.div>
 
@@ -99,7 +94,7 @@ export default function Footer() {
                 { href: "#about", label: "About", icon: User },
                 { href: "#contact", label: "Contact", icon: Mail },
               ].map((item, index) => {
-                const isActive = pathname === item.href; // true if current page matches
+                const isActive = pathname === item.href;
 
                 return (
                   <motion.li key={index} variants={fadeUp}>
@@ -156,11 +151,6 @@ export default function Footer() {
                     href="#services"
                     className="text-sm text-muted-foreground hover:text-primary transition-colors"
                   >
-                    <motion.div
-                      whileHover={{ x: 3 }}
-                      className="flex items-center gap-2"
-                    >
-                    </motion.div>
                     {service}
                   </Link>
                 </motion.li>
@@ -237,10 +227,10 @@ export default function Footer() {
           transition={{ delay: 0.5 }}
           className="mt-12 pt-8 border-t border-foreground/10 text-center"
         >
-          <div className="flex   justify-center items-center gap-4">
+          <div className="flex justify-center items-center gap-4">
             <motion.p
               whileHover={{ scale: 1.05 }}
-              className="text-sm text-muted-foreground order-2 md:order-1"
+              className="text-sm text-muted-foreground"
             >
               © 2026 Haseeb. All rights reserved.
             </motion.p>

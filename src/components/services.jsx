@@ -95,7 +95,7 @@ export default function ServicesList() {
                         variants={fadeUp}
                         className="text-muted-foreground max-w-2xl mx-auto"
                     >
-                        Three ways to work with us. Pick what fits your stage.
+                        Three ways to work with me. Pick what fits your stage.
 
                     </motion.p>
                 </motion.div>

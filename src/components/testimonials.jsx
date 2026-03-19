@@ -10,24 +10,24 @@ const testimonials = [
     name: "Daniel Brooks",
     role: "Startup Founder",
     content:
-      "Seebify delivered our MVP in just a few weeks with excellent code quality. Their communication was clear and they truly understood the product vision.",
+      "Haseeb delivered our MVP in just a few weeks with excellent code quality. His communication was clear and he truly understood the product vision.",
     rating: 5,
   },
   {
     name: "Emily Carter",
     role: "Product Manager",
     content:
-      "Their technical expertise and problem‑solving approach stood out. The development process was smooth and the final product was clean and scalable.",
+      "His technical expertise and problem‑solving approach stood out. The development process was smooth and the final product was clean and scalable.",
     rating: 5,
   },
   {
     name: "Jason Miller",
     role: "Tech Consultant",
     content:
-      "Professional, responsive, and highly skilled. They helped turn our early concept into a working product with great attention to detail.",
+      "Professional, responsive, and highly skilled. He helped turn our early concept into a working product with great attention to detail.",
     rating: 5,
   },
-]
+];
 
 export default function Testimonials() {
   return (

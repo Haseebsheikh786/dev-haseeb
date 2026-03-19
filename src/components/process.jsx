@@ -9,31 +9,31 @@ const processSteps = [
     {
         title: "Discovery & Strategy",
         description:
-            "We deeply understand your idea, users, and business goals to define a clear MVP scope and technical direction.",
+            "I deeply understand your idea, users, and business goals to define a clear MVP scope and technical direction.",
         icon: Lightbulb,
     },
     {
         title: "Planning & Architecture",
         description:
-            "We design scalable system architecture, database structure, and define clean development milestones.",
+            "I design scalable system architecture, database structure, and define clean development milestones.",
         icon: LayoutDashboard,
     },
     {
         title: "Design & Development",
         description:
-            "Using modern technologies like React & Node.js, we build your SaaS with clean, scalable code.",
+            "Using modern technologies like React & Node.js, I build your SaaS with clean, scalable code.",
         icon: Code2,
     },
     {
         title: "Testing & Deployment",
         description:
-            "We ensure quality through testing, optimize performance, and deploy securely to production.",
+            "I ensure quality through testing, optimize performance, and deploy securely to production.",
         icon: Rocket,
     },
     {
         title: "Launch & Support",
         description:
-            "After launch, we monitor performance, fix issues, and help you iterate based on user feedback.",
+            "After launch, I monitor performance, fix issues, and help you iterate based on user feedback.",
         icon: LifeBuoy,
     },
 ];
@@ -67,7 +67,7 @@ export default function Process() {
                         variants={fadeUp}
                         className="text-4xl md:text-5xl font-bold mb-6 tracking-tight"
                     >
-                        How We Turn <span className="text-primary">Ideas Into Products</span>
+                        How I Turn <span className="text-primary">Ideas Into Products</span>
                     </motion.h2>
 
                     <motion.p
