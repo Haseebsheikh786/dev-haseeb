@@ -57,6 +57,7 @@ const services = [
             "API development",
             "Authentication system",
             "User dashboard",
+            "AI integration & workflow automation",
             "Database updates"
         ],
         outcome: "One specific feature, done right, delivered fast",

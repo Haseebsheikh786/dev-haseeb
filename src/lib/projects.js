@@ -21,8 +21,10 @@ export const projects = [
             "Digital waiver system with e-signatures",
             "Real-time scorecards and PDF reports",
             "Gym portal for athlete and team management",
+            "AI-powered birth certificate verification using Google Gemini",
+            "Background job pipelines for invoicing, emails, and long-running tasks",
         ],
-
+        
         technologies: ["Next.js", "React", "Node.js", "PostgreSQL"],
         url: 'https://zipregistration.com/'
     },

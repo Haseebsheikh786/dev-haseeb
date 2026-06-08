@@ -33,8 +33,7 @@ export default function Hero() {
           >
             <motion.div variants={fadeUp}>
               <Badge className="mb-6 py-2 rounded-[20px]" variant="outline">
-                🚀
-                Full-Stack Developer for Startups
+                🚀 Full-Stack Developer for Startups
               </Badge>
             </motion.div>
 
@@ -54,22 +53,18 @@ export default function Hero() {
             <motion.p
               variants={fadeUp}
               className="text-muted-foreground text-lg mb-8 max-w-xl"
-            > I help founders turn ideas into scalable SaaS applications.
-              4+ years experience, 10+ MVPs launched, and a focus on clean,
-              maintainable code that grows with your business.
-              
+            >I help founders turn ideas into scalable SaaS applications — including AI‑powered features and workflow automation.
+              4+ years experience, 10+ MVPs launched, and a focus on clean, maintainable code that grows with your business.
             </motion.p>
 
+            {/* rest unchanged */}
             <motion.div
               variants={fadeUp}
               className="flex flex-col sm:flex-row gap-4"
             >
               <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
                 <Link href="#contact">
-                  <Button
-                    size="lg"
-                    className="sm:w-auto w-full"
-                  >
+                  <Button size="lg" className="sm:w-auto w-full">
                     <Sparkles className="mr-2 h-4 w-4" />
                     Free Consultation
                   </Button>

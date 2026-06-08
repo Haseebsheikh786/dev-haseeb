@@ -43,6 +43,10 @@ const faqs = [
             "I specialize in React, Next.js, Node.js, and PostgreSQL. This stack gives you scalability, performance, and a large talent pool for future hiring.",
     },
     {
+        question: "Can you integrate AI or automate workflows in my product?",
+        answer: "Yes. I integrate AI features and automate repetitive workflows where they add value — from intelligent data processing to background job automation. I can build these into any package.",
+    },
+    {
         question: "Do you help with deployment?",
         answer:
             "Yes, deployment is included in all packages. I handle production setup on Vercel/Render, configure CI/CD, and ensure your app is live and working.",
