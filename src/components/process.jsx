@@ -21,7 +21,7 @@ const processSteps = [
     {
         title: "Design & Development",
         description:
-            "Using modern technologies like React & Node.js, I build your SaaS with clean, scalable code.",
+            "Using modern technologies like React, Next.js, TypeScript, & Node.js, I build your SaaS with clean, scalable code.",
         icon: Code2,
     },
     {

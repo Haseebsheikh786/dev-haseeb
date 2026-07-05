@@ -59,7 +59,7 @@ export default function Footer() {
               variants={fadeUp}
               className="text-sm text-muted-foreground leading-relaxed max-w-96"
             >
-              I'm a full-stack developer helping startups build scalable SaaS products and MVPs with clean, maintainable code and modern technologies like React, Next.js, and Node.js.
+              I'm a full-stack engineer helping startups build scalable SaaS products and MVPs with clean, maintainable code and modern technologies like React, Next.js, and Node.js.
             </motion.p>
           </motion.div>
 
@@ -142,9 +142,9 @@ export default function Footer() {
               className="space-y-3"
             >
               {[
-                "MVP Launch Package",
-                "SaaS Scaling Retainer",
-                "Fixed Feature Package",
+                "Rapid MVP Development",
+                "SaaS Product Scaling",
+                "Targeted Feature Delivery",
               ].map((service, index) => (
                 <motion.li key={index} variants={fadeUp} whileHover={{ x: 3 }}>
                   <Link

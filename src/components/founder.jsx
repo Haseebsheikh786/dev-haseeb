@@ -19,19 +19,19 @@ const sections = [
     title: "The Beginning",
     icon: Code2,
     content:
-      "My journey started by building MVPs for early-stage founders. I focused on execution speed, clean architecture, and delivering real business value instead of just writing code.",
+      "My journey started by building MVPs for early-stage startups and founders. I focused on execution speed, clean architecture, and delivering real business value instead of just writing code.",
   },
   {
     title: "The Mission",
     icon: Rocket,
     content:
-      "My mission is to help founders validate ideas fast and turn them into scalable SaaS products using modern technologies and proven product strategies.",
+      "My mission is to help teams validate ideas fast and turn them into scalable SaaS products using modern technologies and proven product strategies.",
   },
   {
     title: "The Vision",
     icon: Target,
     content:
-      "I'm building my development practice to partner long-term with ambitious founders and help them scale confidently.",
+      "I am committed to partnering long-term with ambitious tech products, helping them scale system infrastructure confidently from anywhere in the world.",
   },
 ];
 
@@ -114,7 +114,7 @@ export default function Founder() {
                   Haseeb Farrukh
                 </h3>
                 <p className="text-primary font-medium">
-                  Full-Stack Developer
+                  Full-Stack Engineer
                 </p>
               </motion.div>
             </motion.div>

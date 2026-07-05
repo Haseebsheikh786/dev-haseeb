@@ -1,17 +1,16 @@
 "use client";
 
 import { Card } from "@/components/ui/card";
-import { Rocket, Gauge, Wrench, Clock, CheckCircle, Users } from "lucide-react";
+import { Rocket, Gauge, Wrench, CheckCircle } from "lucide-react";
 import { motion } from "framer-motion";
 import { fadeUp, scaleUp } from "@/lib/animations";
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
 
-
 const services = [
     {
-        title: "🚀 MVP Launch Package",
-        description: "Perfect for founders with an idea. Get a working MVP in 4-6 weeks.",
+        title: "🚀 Rapid MVP Development",
+        description: "Accelerated engineering to take early-stage concepts to production-ready products.",
         icon: Rocket,
         price: "$3,000 - $7,000",
         timeline: "4-6 weeks",
@@ -24,15 +23,15 @@ const services = [
             "Deployment on Vercel/Render",
             "Ready for user testing"
         ],
-        outcome: "A working MVP you can show to users and investors",
+        outcome: "A working MVP built with clean code, ready for users and investors",
         popular: true
     },
     {
-        title: "⚙️ SaaS Scaling Retainer",
-        description: "Perfect for growing products that need performance and new features.",
+        title: "⚙️ SaaS Product Scaling",
+        description: "Perfect for growing products that need performance optimization and new features.",
         icon: Gauge,
         price: "$1,500 - $3,000/month",
-        timeline: "Monthly partnership",
+        timeline: "Core Engineering",
         features: [
             "Performance optimization",
             "New feature development",
@@ -46,8 +45,8 @@ const services = [
         popular: false
     },
     {
-        title: "🔧 Fixed Feature Package",
-        description: "Perfect for specific features or integrations needed quickly.",
+        title: "🔧 Targeted Feature Delivery",
+        description: "Perfect for specific features, complex integrations, or automation modules needed quickly.",
         icon: Wrench,
         price: "$500 - $2,000",
         timeline: "1-3 weeks",
@@ -88,7 +87,7 @@ export default function ServicesList() {
                         variants={fadeUp}
                         className="text-4xl md:text-5xl font-bold mb-6"
                     >
-                        <span className="text-foreground">Simple Packages for   </span>
+                        <span className="text-foreground">How I Partner With </span>
                         <span className="text-primary">Startups</span>
                     </motion.h2>
 
@@ -96,10 +95,10 @@ export default function ServicesList() {
                         variants={fadeUp}
                         className="text-muted-foreground max-w-2xl mx-auto"
                     >
-                        Three ways to work with me. Pick what fits your stage.
-
+                        Three strategic frameworks to leverage my technical expertise. Pick what fits your stage.
                     </motion.p>
                 </motion.div>
+
                 <motion.div
                     className="grid md:grid-cols-2 lg:grid-cols-3 gap-6"
                     initial="initial"
@@ -137,9 +136,7 @@ export default function ServicesList() {
                                 <h3 className="text-xl font-semibold mb-1">{service.title}</h3>
                                 <p className="text-muted-foreground text-sm mb-3">{service.description}</p>
 
-                                <div className="text-2xl font-bold mb-4 text-primary">
-                                    {service.price}
-                                </div>
+                                {/* Price block remains hidden perfectly via your comment block */}
 
                                 <div className="mb-4">
                                     <h4 className="text-sm font-semibold mb-2 flex items-center gap-2">
@@ -156,7 +153,7 @@ export default function ServicesList() {
                                     </ul>
                                 </div>
 
-                                <div className="mt-auto pt-4 border-t">
+                                <div className="mt-auto pt-4 border-t mb-4">
                                     <p className="text-sm">
                                         <span className="font-semibold">Outcome:</span>{' '}
                                         <span className="text-muted-foreground">{service.outcome}</span>
@@ -165,13 +162,13 @@ export default function ServicesList() {
 
                                 <motion.div
                                     variants={fadeUp}
-                                    whileHover={{ scale: 1.05 }}
-                                    whileTap={{ scale: 0.95 }}
+                                    whileHover={{ scale: 1.02 }}
+                                    whileTap={{ scale: 0.98 }}
                                 >
                                     <Link href="#contact">
                                         <Button
                                             size="lg"
-                                            className={`w-full rounded-xl mt-4 ${service.popular
+                                            className={`w-full rounded-xl ${service.popular
                                                 ? "bg-primary hover:bg-primary/90 text-white "
                                                 : ""
                                                 }`}

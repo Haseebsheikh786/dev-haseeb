@@ -33,27 +33,27 @@ export default function Hero() {
           >
             <motion.div variants={fadeUp}>
               <Badge className="mb-6 py-2 rounded-[20px]" variant="outline">
-                🚀 Full-Stack Developer for Startups
+                🚀 Full-Stack SaaS Engineer
               </Badge>
             </motion.div>
 
             <motion.h1
               variants={fadeUp}
-              className="text-4xl md:text-6xl font-bold leading-tight mb-8"
+              className="text-4xl md:text-5xl font-bold leading-tight mb-8"
             >
               <span className="text-foreground">
-                I Build SaaS Products
+                I Build Production-Ready SaaS Products
               </span>
               <br />
               <span className="text-primary">
-                From Idea to Production
+                From Idea to Scale
               </span>
             </motion.h1>
 
             <motion.p
               variants={fadeUp}
               className="text-muted-foreground text-lg mb-8 max-w-xl"
-            >I help founders turn ideas into scalable SaaS applications — including AI‑powered features and workflow automation.
+            >I help founders and engineering teams turn ideas into scalable SaaS applications — including AI‑powered features and workflow automation.
               4+ years experience, 10+ MVPs launched, and a focus on clean, maintainable code that grows with your business.
             </motion.p>
 

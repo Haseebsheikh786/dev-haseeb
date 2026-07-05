@@ -13,58 +13,59 @@ import { fadeUp, scaleUp } from '@/lib/animations'
 
 const faqs = [
     {
-        question: "Which package is right for my startup?",
+        question: "Which partnership model is right for my product?",
         answer:
-            "If you have an idea and need to validate it, start with my MVP Launch Package. If you already have users and need to scale, choose the Scaling Retainer. For specific features, go with the Fixed Feature Package. Not sure? Book a free consultation and I'll guide you.",
+            "If you have an early concept and need to validate it, we can design an MVP engineering framework to target core features. If you already have active users and need structural engineering, we can scale your infrastructure over an ongoing engagement. For isolated scopes or modules, a fixed feature milestone approach is ideal.",
     },
     {
-        question: "How fast can you build an MVP?",
+        question: "How fast can you build and launch an MVP?",
         answer:
-            "My MVP Launch Package delivers a working product in 4-6 weeks. I focus on core features that validate your idea, so you can start getting user feedback quickly.",
+            "A standard MVP delivery phase spans 4-6 weeks. I focus heavily on core business workflows to validate your concept efficiently, engineering clean, reliable ground code so you can begin collecting live data immediately.",
     },
     {
-        question: "What's included in the MVP Launch Package?",
+        question: "What is typically handled during an MVP development lifecycle?",
         answer:
-            "You get product architecture, user authentication, core feature development, admin dashboard, API development, and deployment. Everything you need to launch and test your idea.",
+            "The lifecycle covers system architecture design, secure database optimization, user authentication, core workflows, an admin interface, robust API endpoints, and production deployment on environments like Vercel or Render with automated CI/CD pipelines.",
     },
     {
-        question: "How does the Scaling Retainer work?",
+        question: "How does the ongoing scaling engagement work?",
         answer:
-            "It's a monthly partnership. I handle performance optimization, new features, database scaling, and maintenance. You get priority support and predictable monthly pricing.",
+            "It functions as a dedicated engineering retainer. I integrate closely with your system goals to manage database optimization, feature extensions, codebase architecture refactoring, and stability. This offers priority focus and high predictability.",
     },
     {
-        question: "Can I hire you for just one feature?",
+        question: "Can I bring you on for a singular, specific feature?",
         answer:
-            "Yes! My Fixed Feature Package is perfect for specific needs like payment integration, custom admin panels, or API development. Typical delivery is 1-3 weeks.",
+            "Absolutely. If you have a specific roadblock—such as a complex Stripe payment ledger, custom workflow engine, third-party API sync, or deep AI integration—we can isolate it into a targeted 1-3 week sprint.",
     },
     {
-        question: "What technologies do you use?",
+        question: "What technologies do you specialize in?",
         answer:
-            "I specialize in React, Next.js, Node.js, and PostgreSQL. This stack gives you scalability, performance, and a large talent pool for future hiring.",
+            "I specialize natively in React, Next.js, TypeScript, Node.js, and PostgreSQL. This modern ecosystem ensures long-term backend scalability, exceptional frontend rendering speeds, and an easy codebase architecture to extend as your team grows.",
     },
     {
-        question: "Can you integrate AI or automate workflows in my product?",
-        answer: "Yes. I integrate AI features and automate repetitive workflows where they add value — from intelligent data processing to background job automation. I can build these into any package.",
+        question: "Can you integrate AI modules or automate system workflows?",
+        answer:
+            "Yes. I engineer smart automation sequences, deep LLM integrations, background message queues, and automated data parsing flows into existing architectures or brand-new MVPs.",
     },
     {
-        question: "Do you help with deployment?",
+        question: "Do you handle deployment and server architecture setup?",
         answer:
-            "Yes, deployment is included in all packages. I handle production setup on Vercel/Render, configure CI/CD, and ensure your app is live and working.",
+            "Yes, full production rollout is standardized across all engineering milestones. I handle staging/production environments, secure environment variable configurations, SSL setups, and continuous deployment systems.",
     },
     {
-        question: "What if I need ongoing support after launch?",
+        question: "What if I need ongoing engineering support post-launch?",
         answer:
-            "The Scaling Retainer is perfect for post-launch support. It includes maintenance, bug fixes, and new features as you grow. You can also book hourly support if needed.",
+            "An ongoing retainer models perfectly for scaling operations, monitoring traffic spikes, and mitigating bugs. If required, we can structure ad-hoc technical support hours tailored to your system's traffic patterns.",
     },
     {
-        question: "How do you ensure code quality?",
+        question: "How do you maintain high code quality?",
         answer:
-            "I follow clean architecture principles, write tests, conduct code reviews, and maintain documentation. Quality is built into every package.",
+            "I practice strict clean code principles, optimize database query indexing, enforce typing with TypeScript, implement automated system testing, and provide exhaustive README documentation for seamless knowledge transfers.",
     },
     {
-        question: "Can you work with my existing codebase?",
+        question: "Can you work directly with my existing engineering codebase?",
         answer:
-            "Absolutely. I can integrate with your existing codebase, refactor as needed, and help you scale your current application.",
+            "Absolutely. I can dive straight into a legacy architecture or ongoing codebase, identify bottlenecks, refactor architectural technical debt, and build out features alongside your technical definitions seamlessly."
     }
 ];
 
