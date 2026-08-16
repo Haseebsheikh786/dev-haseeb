@@ -66,7 +66,7 @@ export const projects = [
     },
 
     {
-        title: "TicketsInAZip",
+        title: "Event Ticketing & Management",
         category: "Event Ticketing & Management Platform",
         shortDesc: "Full-featured event ticketing platform with admin panel, artist dashboards, and mobile app",
         images: ["/projects/tiaz_1.png", "/projects/tiaz_2.png", "/projects/tiaz_3.png"],
