@@ -24,7 +24,7 @@ export const projects = [
             "AI-powered birth certificate verification using Google Gemini",
             "Background job pipelines for invoicing, emails, and long-running tasks",
         ],
-        
+
         technologies: ["Next.js", "React", "Node.js", "PostgreSQL"],
         url: 'https://zipregistration.com/'
     },
@@ -65,6 +65,48 @@ export const projects = [
         url: 'https://ash-crv-site.vercel.app/'
     },
 
+    {
+        title: "TicketsInAZip",
+        category: "Event Ticketing & Management Platform",
+        shortDesc: "Full-featured event ticketing platform with admin panel, artist dashboards, and mobile app",
+        images: ["/projects/tiaz_1.png", "/projects/tiaz_2.png", "/projects/tiaz_3.png"],
+
+        overview:
+            "TicketsInAZip is a comprehensive event ticketing and management platform built for event organizers, artists, and attendees. It includes a powerful web admin panel for event creation, artist management, invoicing, marketing campaigns, and customer support, along with a mobile app for ticket discovery, purchase, and scanning.",
+
+        problem:
+            "Event organizers often manage ticket sales, artist settlements, marketing, and attendee support through disconnected tools, leading to inefficiency, data silos, and manual errors.",
+
+        solution:
+            "TicketsInAZip unifies the entire event lifecycle into one platform with role-based dashboards for admins, artists, and end-users. Real-time chat via Firebase, multi-day event support, automated email notifications, and Stripe payments keep operations smooth and scalable.",
+
+        features: [
+            "Multi-day event support with per-day scheduling and pricing",
+            "Role-based access control with granular permissions",
+            "Dynamic ticket pricing categories (Adult, Child, VIP)",
+            "Real-time Firebase chat for customer support",
+            "Artist management with revenue sharing, invoices, and ledger entries",
+            "Automated email notifications (OTP, welcome, password reset, marketing campaigns)",
+            "Marketing CRM with collections, templates, and campaign scheduling",
+            "Stripe payment integration for ticket purchases",
+            "Scanner API for ticket validation and attendance tracking",
+            "Downloadable PDF invoices and statements",
+        ],
+
+        technologies: [
+            "Next.js",
+            "React",
+            "Node.js",
+            "Express",
+            "PostgreSQL",
+            "Firebase",
+            "Stripe",
+            "Cloudinary",
+            "Mapbox",
+        ],
+        url: "https://ticketsinazip-site.vercel.app/"
+    },
+    
     {
         title: "ExpertConnect",
         category: "Expert Marketplace Platform",
